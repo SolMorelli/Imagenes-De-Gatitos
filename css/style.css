@@ -1,0 +1,90 @@
+@import url(common-elements.css);
+
+/* BODY, HTML, HEADINGS y TEXTO */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-color: #cbeaed;
+  color: #4C3B4D;
+  font-family: 'Varta', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #006A71;
+}
+button {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.start-button:hover {
+  text-decoration: none;
+}
+
+/* PANTALLA PRINCIPAL */
+#start-div {
+  background-image: url(../images/wave-bg.png);
+  background-size: cover;
+  background-position: right top;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+.btn-custom {
+  background-color: #006A71;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.btn-custom:hover {
+  background-color: #004d64;
+  color: white;
+}
+
+/* BUSQUEDA */
+.search-form-control {
+  position: relative;
+}
+.search-form-control .btn {
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  right: 8px;
+}
+.search-form-control .form-control {
+  height: 3.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border: 1px solid #E7E7E7;
+}
+.search-form-control .form-control:focus {
+  border: 1px solid #1EDD88;
+  outline: none !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* GALERIA */
+#michi-stretch {
+  height: 100px;
+  float: left;
+}
+.card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+}
+
+/* INFO ON HOVER */
+.card-img-overlay:hover {
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
+.card-title {
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 0.25em;
+}
+.gallery-button {
+  color: white;
+}
+.gallery-button:hover {
+  color: black;
+}

@@ -1,0 +1,20 @@
+@import url(common-elements.css);
+
+h3 {
+    color: #006A71;
+  }
+  .btn-custom {
+    background-color: #006A71;
+    color: white;
+  }
+  .btn-custom:hover {
+    background-color: #004d64;
+    color: white;
+  }
+  strong {
+    color: #006A71;
+  }
+  strong:hover {
+    color: #004d64;
+    text-decoration: underline;
+  }

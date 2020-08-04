@@ -1,0 +1,60 @@
+/* BODY, HTML, HEADINGS y TEXTO */
+body {
+    margin: 0;
+    background-color: #cbeaed;
+    color: #4C3B4D;
+    font-family: 'Varta', sans-serif;
+}
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+button {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.page-container {
+    min-height: 100vh;
+}
+
+/* NAVEGADOR */
+#logo-img {
+    height: 30px;
+    margin: 0;
+  }
+  .navbar-lewagon {
+    justify-content: space-between;
+    background: white;
+  }
+  .navbar-lewagon .navbar-collapse {
+    flex-grow: 0;
+  }
+  .navbar-lewagon .navbar-brand img {
+    width: 40px;
+  }
+  .avatar {
+    width: 40px;
+    border-radius: 50%;
+  }
+  .btn-light {
+    background-color: #cbeaed1A;
+  }
+  button {
+    outline: none;
+  }
+  
+/* FOOTER */
+footer {
+    width: 100%;
+}
+.footer-links a {
+    color: #006A71;
+    opacity: 0.3;
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-links a:hover {
+    opacity: 1;
+}

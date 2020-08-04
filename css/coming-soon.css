@@ -1,0 +1,27 @@
+@import url(common-elements.css);
+
+.container-fluid {
+    height: 100vh;
+}
+h1, h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #006A71;
+}
+button {
+    color: white;
+    background-color: #006A71;
+    padding: 1em 1.5em 0.5em 1.5em;
+    border: none;
+    border-radius: 1em;
+    outline: none !important;
+}
+button:hover {
+    color: white;
+    background-color: #004d64;
+}
+a:hover {
+    text-decoration: none;
+}
+.kitty {
+    height: 22vw;
+}
