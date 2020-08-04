@@ -23,6 +23,6 @@ registerForm.addEventListener("submit", (event) => {
         }
     } else {
         registerForm.submit();
-        window.location.replace("index.html");
+        window.location.replace("../index.html");
     }
 })

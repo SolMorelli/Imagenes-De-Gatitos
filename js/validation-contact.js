@@ -19,6 +19,7 @@ contactForm.addEventListener("submit", (event) => {
         contactSubmitHelp.innerText = "¡Mensaje enviado!"
         setTimeout(() => {
             contactForm.submit();
+            window.location.replace("../index.html");
         }, 1000)
         
     }

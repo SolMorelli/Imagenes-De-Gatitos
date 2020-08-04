@@ -15,6 +15,6 @@ loginForm.addEventListener("submit", (event) => {
         }
     } else {
         loginForm.submit();
-        window.location.replace("index.html");
+        window.location.replace("../index.html");
     }
 })
